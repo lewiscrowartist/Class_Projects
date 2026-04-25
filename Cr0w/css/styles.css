@@ -1,6 +1,4 @@
-/* =========================
-   GLOBAL STYLES
-========================= */
+/*GLOBAL STYLES*/
 
 body {
     background-color: #A62121;
@@ -49,9 +47,7 @@ img {
     border-radius: 10px;
 }
 
-/* =========================
-   CONTAINER
-========================= */
+/*CONTAINER*/
 
 #container {
     padding: 10px;
@@ -63,9 +59,7 @@ img {
         inset 0 0 10px #1C8C38;
 }
 
-/* =========================
-   NAVIGATION
-========================= */
+/*NAVIGATION*/
 
 nav {
     text-align: center;
@@ -105,9 +99,7 @@ nav li a:hover {
     transform: translateY(-3px);
 }
 
-/* =========================
-   MAIN CONTENT
-========================= */
+/*MAIN CONTENT*/
 
 main {
     padding: 10px;
@@ -118,9 +110,7 @@ main {
     padding: 10px;
 }
 
-/* =========================
-   CARD / ARTWORK SYSTEM
-========================= */
+/*CARD / ARTWORK SYSTEM*/
 
 .col {
     margin: 20px 0;
@@ -156,17 +146,13 @@ main {
     padding: 10px;
 }
 
-/* =========================
-   HERO IMAGE (APPAREL PAGE)
-========================= */
+/*HERO IMAGE (APPAREL PAGE)*/
 
 .hero-apparel img {
     max-width: 700px;
 }
 
-/* =========================
-   APPAREL GRID
-========================= */
+/*APPAREL GRID*/
 
 .apparel {
     display: grid;
@@ -186,9 +172,7 @@ main {
     box-shadow: 0 0 15px #1C8C38;
 }
 
-/* =========================
-   FLEX UTILITIES
-========================= */
+/*FLEX UTILITIES*/
 
 .Apparel,
 .RetroOcho,
@@ -198,9 +182,7 @@ main {
     flex-wrap: wrap;
 }
 
-/* =========================
-   PANELS / SECTIONS
-========================= */
+/*PANELS / SECTIONS*/
 
 section,
 aside {
@@ -214,9 +196,7 @@ aside {
         inset 0 0 10px #D98E04;
 }
 
-/* =========================
-   MEDIA
-========================= */
+/*MEDIA*/
 
 iframe {
     display: block;
@@ -225,18 +205,14 @@ iframe {
     height: 450px;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/*FOOTER*/
 
 footer {
     padding: 40px;
     text-align: center;
 }
 
-/* =========================
-   TABLET STYLES
-========================= */
+/*TABLET STYLES*/
 
 @media (min-width: 768px) {
 
@@ -266,9 +242,7 @@ footer {
     }
 }
 
-/* =========================
-   DESKTOP STYLES
-========================= */
+/*DESKTOP STYLES*/
 
 @media (min-width: 1024px) {
 
