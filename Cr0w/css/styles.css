@@ -1,5 +1,9 @@
 /*GLOBAL STYLES*/
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #A62121;
     color: #1C8C38;
@@ -36,14 +40,12 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 img {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
     border-radius: 10px;
 }
 
